@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const Product = require('./models/product');
 
 const MONGODB_URI =
-	process.env.MONGODB_URI || 'mongodb://localhost:27017/testdb1';
+	process.env.MONGODB_URI || 'mongodb+srv://indy:11850532@cluster0.bhxcn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 9000;
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });

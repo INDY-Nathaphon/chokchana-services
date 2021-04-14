@@ -7,5 +7,5 @@ const productSchema = new Schema({
     Date: String,
     Award: String,
 })
-const ProductModel = mongoose.model('test2', productSchema)
+const ProductModel = mongoose.model('test1', productSchema)
 module.exports = ProductModel
